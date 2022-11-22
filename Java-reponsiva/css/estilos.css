@@ -1,0 +1,96 @@
+.logotipo {
+    width: 45px;
+    height: 45px;
+}
+
+#navbarNav {
+    color: white !important;
+    font-weight: bold;
+}
+
+.altura-a-b {
+    padding: 50px 0;
+}
+
+#parrafo {
+    font-size: 15px;
+    background-color: gray;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+    height: 400px;
+}
+
+#subheader {
+
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.galeria {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+
+    display: block;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+.nosotros {
+
+
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+.form-control {
+    resize: none;
+
+}
+
+#floatingTextarea2 {
+    align-content: center;
+    text-align: center;
+}
+#apart5 {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    margin:5px;
+    z-index: 0;
+    transition: all 450ms ease;
+    
+    
+}
+#apart5:hover {
+    color: blueviolet;
+}
+.foop {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 0;
+    transition: all 450ms ease;
+    color: white;
+}
+.foop:hover {
+    color: blueviolet;
+}

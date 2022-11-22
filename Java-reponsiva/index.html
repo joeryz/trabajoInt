@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Java</title>
+    <link rel="icon" href="imagenes/cine1.jpg.jpg">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<!-- navbar navbar navbar -->
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+
+        <div class="container-fluid" id="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logotipo" src="imagenes/cine1.jpg.jpg" alt="institucion"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ticket.html">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Registrarse</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- slider slider slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="imagenes/cine2.jpg.jpg" class="d-block w-100" alt="nuestro cine">
+            <div class="carousel-caption ">
+                <h5 class="text-bg-warning p-3">CINES CIUDADELA</h5>
+                <p class="text-warning bg-dark">Una sala única en la región que ofrece una experiencia audiovisual
+                    totalmente inmersiva
+                    para el espectador.</p>
+                <div id="subheader"><a href="#" class="galeria">Galeria</a><a href="#" class="nosotros">Sobre
+                        Nosotros</a></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <main>
+        <section class="altura-a-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 text-center pt-2 shadow-lg">
+                        <img src="imagenes/cine3.jpg.jpg" width="200px" height="200px" alt="imagen1">
+                        <p>Cine Ciudadela tiene la visión de ser una empresa de cines innovadora</p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center pt-2 shadow-lg">
+                        <img src="imagenes/cine4.jpg.jpg" width="200px" height="200px" alt="imagen2">
+                        <p>La misión de Cines ciudadela es mejorar la experiencia cinematográfica</p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center pt-2 shadow-lg">
+                        <img src="imagenes/cine5.jpg.jpg" width="200px" height="200px" alt="imagen3">
+                        <p>Iluminamos la película de tu vida con sonrisas y momentos inolvidables</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="altura-a-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <img class="img-fluid" src="imagenes/cine6.jpg.jpg" alt="nuestro cine">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <p class="col-12 p-4" id="parrafo">Para el año 1997, el mega espacio de entretenimiento ubicado
+                            en el distrito de
+                            tres de febrero, era visitado por más de 100 mil personas por fin de semana. En aquella
+                            época
+                            era un lugar de atracción no sólo para los vecinos de ciudadela, sino también para aquellos
+                            que
+                            llegaban desde otras localidades en búsqueda de diversión y sitios para hacer compras <br>
+                            <a href="#" id="apart5">Conocer más</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="altura-a-b ">
+        <div class="row g-2 justify-content-center">
+            <div class="col-md-4">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                        value="mdo@example.com">
+                    <label for="floatingInputGrid">Correo</label>
+                </div>
+            </div>
+
+            <div class="col-md-4 ">
+                <div class="form-floating ">
+                    <select class="form-select justify-content-end" id="floatingSelectGrid">
+                        <option selected>Menu</option>
+                        <option value="1">Consulta</option>
+                        <option value="2">Sugerencia</option>
+                        <option value="3">Reclamo</option>
+                    </select>
+                    <label for="floatingSelectGrid">Elige una opción</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row g-2 justify-content-center">
+                <div class=" altura-a-b " id="textarea">
+                    <div class=" col-12 form-floating ">
+                        <textarea class="form-control justify-content-center" placeholder="Escribe aqui"
+                            id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Escribe aqui</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fuid">
+            <div class="row p-3 bg-secondary text-white">
+                <div class="col-3 col-lg-3">
+                    <p id="foop" class="h6">CINES CIUDADELA </p>
+                </div>
+                <div class="col-3 col-lg-3">
+                    <p id="foop" class="h6 text-white"><a class="foop" href="#">Instagram</a> </p>
+                </div>
+                <div class="col-3 col-lg-3">
+                    <p id="foop" class="h6"><a class="foop" href="#">Contacto</a> </p>
+                </div>
+                <div class="col-3 col-lg-3">
+                    <p id="foop" class="h6"><a class="foop" href="#">Ubicación</a> </p>
+                </div>
+                </d>
+            </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
